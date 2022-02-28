@@ -51,7 +51,7 @@ const generateImage = async (member) => {
 
     // draw in the username
     ctx.font = "60px Lexend"
-    ctx.fillText(username + discrim, dim.width/2, dim.height - dim.margin - 125)
+    ctx.fillText(username + "#" + discrim, dim.width/2, dim.height - dim.margin - 125)
 
     // draw in to the server
     ctx.font = "40px Lexend"
